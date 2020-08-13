@@ -10,7 +10,7 @@ func TestNextToken(t *testing.T) {
 let ten = 10;
 
 let add = fn(x, y) {
-	x + y;
+x + y;
 };
 
 let result = add(five, ten);
@@ -20,6 +20,7 @@ let result = add(five, ten);
 		expectedType    token.TokenType
 		expectedLiteral string
 	}{
+		{token.LET, "let"},
 		{token.IDENT, "five"},
 		{token.ASSIGN, "="},
 		{token.INT, "5"},
