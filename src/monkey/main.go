@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
+	"monkey/repl"
 	"os"
 	user2 "os/user"
-
-	"github.com/noissefnoc/book-writing-an-interpreter-in-go/monkey/repl"
 )
 
 var (
